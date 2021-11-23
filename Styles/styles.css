@@ -104,6 +104,10 @@ margin-left: 15px;
     margin-left: 10px;
 }
 
+.project-link:hover{
+    color: #595959;
+}
+
 .project-bracket
 {
     font-style: normal;
