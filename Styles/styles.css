@@ -96,7 +96,7 @@ margin-left: 15px;
     font-weight: normal;
     font-size: 14px;
     line-height: 24px;
-    color: #595959;
+    color: #a11111;
 }
 
 .project-link
@@ -130,7 +130,7 @@ margin-left: 15px;
     font-weight: bold;
     font-size: 16px;
     line-height: 20px;
-    color: #cf684fe0;
+    color: #4a668f;
 }
 
 .period
@@ -181,7 +181,7 @@ margin-left: 15px;
     font-weight: bold;
     font-size: 16px;
     line-height: 20px;
-    color: #FB6D3A;
+    color: #4a668f;
     margin-bottom: 10px;
 }
 
@@ -199,7 +199,7 @@ margin-left: 15px;
 /*sidebar*/
 .sidebar
 {
-    background-color: #1E2939;
+    background-color: #4a668f;
     padding-top: 40px;
     width: 370px;
 }
@@ -246,7 +246,11 @@ margin-left: 15px;
     font-weight: normal;
     font-size: 14px;
     line-height: 24px;
-    color: #61a5c0;
+    color: #0de1d7;
+}
+
+.contact-link:hover{
+    color: #35a4c5;
 }
 
 .tech-skills
