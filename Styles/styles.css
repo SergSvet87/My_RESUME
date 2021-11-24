@@ -102,9 +102,15 @@ margin-left: 15px;
 .project-link
 {
     margin-left: 10px;
+    text-decoration: none;
+}
+
+.project-link:visited{
+    color: #16c1c1;
 }
 
 .project-link:hover{
+    text-decoration: underline;
     color: #595959;
 }
 
@@ -246,6 +252,7 @@ margin-left: 15px;
 
 .contact-link
 {
+    text-decoration: none;
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
