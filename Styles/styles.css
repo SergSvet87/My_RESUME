@@ -1,4 +1,4 @@
-/*стили тела*/
+/*стили для всего контента*/
 body
 {
     font-family: 'Montserrat', sans-serif;
@@ -25,6 +25,11 @@ body
 .about
 {
     margin-bottom: 40px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
 }
 
 .about-position
