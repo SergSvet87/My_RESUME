@@ -141,7 +141,7 @@ body {
   margin-bottom: 10px;
 }
 
-p span {
+p > span {
     font-style: normal;
     font-weight: normal;
     font-size: 12px;
@@ -150,7 +150,7 @@ p span {
     margin-bottom: 10px;
   }
 
-p .line {
+p > .line {
   font-style: normal;
   font-weight: normal;
   font-size: 12px;
