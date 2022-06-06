@@ -1,15 +1,16 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="ua">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="hhttps://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./Styles/styles.css">
-    <title>Resume</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/style.css">
+    <script defer src="./js/lang.js"></script>
+    <script defer src="./js/main.js"></script>
+    <title class="head-title lang-head-title">Моє Резюме</title>
 </head>
 
 <body>
@@ -19,27 +20,25 @@
         <div class="main-content">
             <!--Обо мне-->
             <div class="about">
-               <div class="header">
-                <h2 class="about-position">Front-End Development</h2>
+                <div class="header">
+                    <h2 class="about-position">Front-End Development</h2>
 
-                <select name="lang" id="" class="change-lang">
-                    <option value="ua">UA</option>
-                    <option value="en">EN</option>
-                    <option value="ru">RU</option>
-                </select>
-               </div>
+                    <select name="lang" id="" class="change-lang">
+                        <option value="ua" selected>UA</option>
+                        <option value="en">EN</option>
+                        <option value="ru">RU</option>
+                    </select>
+                </div>
 
-                <h1 class="lang-about-name">Serhii Svitlychnyi</h1>
+                <h1 class="about-name lang-about-name">Сергій Світличний</h1>
 
-                <p class="lang-about-description">I am able to work productively in a team, responsible, attentive,
-                    I make decisions quickly, the ability to self-organize, competent, balanced, focused, disciplined,
-                    result-oriented, sociable.
+                <p class="about-description lang-about-description">Вмію продуктивно працювати в команді, відповідальний, уважний, швидко приймаю рішення, вмію самоорганізуватися, компетентний, врівноважений, цілеспрямований, дисциплінований, націлений на результат, комунікабельний.
                 </p>
             </div>
 
             <!--Проекти-->
             <div class="projects">
-                <h3 class="lang-title">Мои Проекти</h3>
+                <h3 class="title lang-title-projects">Мої Проєкти</h3>
                 <ol class="project-list">
                     <li class="projects-item">
                         <span class="project">
@@ -61,7 +60,8 @@
                     </li>
                     <li class="projects-item">
                         <span class="project">
-                            <a href="https://sergsvet87.github.io/youtube-concept/" class="project-link">Main Page Youtube</a>
+                            <a href="https://sergsvet87.github.io/youtube-concept/" class="project-link">Main Page
+                                Youtube</a>
                             ............................
                             <span class="project-bracket">[</span>
                             HTML5, CSS3, JavaScript
@@ -70,7 +70,8 @@
                     </li>
                     <li class="projects-item">
                         <span class="project">
-                            <a href="https://sergsvet87.github.io/evarugs/" class="project-link">Сайт автоковриков Evarugs!</a>
+                            <a href="https://sergsvet87.github.io/evarugs/" class="project-link">Сайт автоковриков
+                                Evarugs!</a>
                             ............
                             <span class="project-bracket">[</span>
                             HTML5, CSS3, JavaScript
@@ -88,7 +89,8 @@
                     </li>
                     <li class="projects-item">
                         <span class="project">
-                            <a href="https://sergsvet87.github.io/Elevate_Your_Everyday/" class="project-link">Elevate Your Everyday</a>
+                            <a href="https://sergsvet87.github.io/Elevate_Your_Everyday/" class="project-link">Elevate
+                                Your Everyday</a>
                             .......................
                             <span class="project-bracket">[</span>
                             HTML5, CSS3
@@ -166,15 +168,17 @@
 
             <!--Работа-->
             <div class="work">
-                <h3 class="lang-title">Work experience</h3>
+                <h3 class="title lang-title-work">Досвід роботи</h3>
                 <!--Предприяие 1-->
                 <div>
-                    <h4 class="lang-work-position">Process Engineer
-                        <span class="lang-organization">Филиал УкрНИИгаз АО "Укргаздобыча"</span>
+                    <h4 class="work-position lang-work-position1">Process Engineer
+                        <span class="organization lang-organization1">Филиал УкрНИИгаз АО "Укргаздобыча"</span>
                     </h4>
-                    <p class="lang-period">December 2017 - up to now
-                        <span class="lang-line">|</span> Kharkiv</p>
-                    <p class="lang-work-description">
+                    <p class="period lang-period1">December 2017 - up to now
+                        <span class="line">|</span>
+                        <span class="lang-period-span1"> Kharkiv</span>
+                    </p>
+                    <p class="work-description lang-work-description1">
                         В секторе разработки норм на механическое бурение и норм времени
                         на технологические работы отдела техники и технологии бурения занимаюсь разработкой
                         норм времени на спуско-подъемные операции установками для капитального ремонта скважин.
@@ -183,13 +187,14 @@
 
                 <!--Предприяие 2-->
                 <div>
-                    <h4 class="lang-work-position">Engineer-inventor
-                        <span class="lang-organization">ГП "Харьковское конструкторское бюро по машиностроению им.
+                    <h4 class="work-position lang-work-position2">Engineer-inventor
+                        <span class="organization lang-organization2">ГП "Харьковское конструкторское бюро по
+                            машиностроению им.
                             Морозова"</span>
                     </h4>
-                    <p class="lang-period">2016 - 2017 years
-                        <span class="lang-line">|</span> Kharkiv</p>
-                    <p class="lang-work-description">
+                    <p class="period lang-period2">2016 - 2017 years
+                        <span class="line">|</span> <span class="lang-period-span1"> Kharkiv</span></p>
+                    <p class="work-description lang-work-description2">
                         Во время работы занимался проведением испытаний комплектующих (тарировка пыли для испытания
                         воздухоочистителей, испытания редукторов привода насосов водометов и лебедки), техническое
                         сопровождение восстановления камеры холода, сопровождение технического описания для
@@ -199,12 +204,12 @@
 
                 <!--Предприяие 3-->
                 <div>
-                    <h4 class="lang-work-position">Technician
-                        <span class="organization">ООО "Воля-Кабель"</span>
+                    <h4 class="work-position lang-work-position3">Technician
+                        <span class="organization lang-organization3">ООО "Воля-Кабель"</span>
                     </h4>
-                    <p class="lang-period">2014 - 2016 years
-                        <span class="lang-line">|</span> Kharkiv</p>
-                    <p class="lang-work-description">
+                    <p class="period lang-period3">2014 - 2016 years
+                        <span class="line">|</span> Kharkiv</p>
+                    <p class="work-description lang-work-description3">
                         Занимался подключением интернет услуг и телевидения от оборудования
                         компании до потребителей абонентов.
                     </p>
@@ -212,12 +217,12 @@
 
                 <!--Предприяие 4-->
                 <div class="lang-work-4">
-                    <h4 class="lang-work-position">Setup and Testing Engineer
-                        <span class="lang-organization">ГП "Завод им. Малышева"</span>
+                    <h4 class="work-position lang-work-position4">Setup and Testing Engineer
+                        <span class="organization lang-organization4">ГП "Завод им. Малышева"</span>
                     </h4>
-                    <p class="lang-period">2009 - 2013 years
-                        <span class="lang-line">|</span> Kharkiv</p>
-                    <p class="lang-work-description">
+                    <p class="period lang-period4">2009 - 2013 years
+                        <span class="line">|</span> Kharkiv</p>
+                    <p class="work-description lang-work-description4">
                         Во время работы занимался настройкой и проведение испытаний дизель-генераторов семейства
                         Д100, а также работал Инженером-конструктором и испытателем двигателей.
                     </p>
@@ -226,60 +231,59 @@
 
             <!--Образование-->
             <div class="education">
-                <h3 class="lang-title">Education</h3>
+                <h3 class="title lang-title-education">Education</h3>
 
                 <!--Учереждение 1-->
                 <div class="education">
-                    <h4 class="lang-education-title">Компьютерная академия "ШАГ"</h4>
-                    <p class="lang-education-specialization">
+                    <h4 class="education-title lang-education-title1">Компьютерная академия "ШАГ"</h4>
+                    <p class="education-specialization lang-education-specialization1">
                         "Тестирование программного обеспечения" - Quality Assurance
                     </p>
-                    <p class="lang-period">February 2021 - up to now
-                        <span class="lang-line">|</span> Kharkiv</p>
+                    <p class="period lang-education-period1">February 2021 - up to now
+                        <span class="line">|</span> Kharkiv</p>
                 </div>
 
                 <!--Учереждение 2-->
                 <div class="education">
-                    <h4 class="lang-education-title">Национальный технический университет "Днепровская политехника"</h4>
-                    <p class="lang-education-specialization">
+                    <h4 class="education-title lang-education-title2">Национальный технический университет "Днепровская политехника"</h4>
+                    <p class="education-specialization lang-education-specialization2">
                         "Бурение скважин" - Инженер-механик
                     </p>
-                    <p class="lang-period">September 2019 - December 2020
-                        <span class="lang-line">|</span> Dnipro</p>
+                    <p class="period lang-education-period2">September 2019 - December 2020
+                        <span class="line">|</span> Dnipro</p>
                 </div>
 
                 <!--Учереждение 3-->
                 <div class="education">
-                    <h4 class="lang-education-title">Харьковский государственный автомобильно-дорожный технический
-                        университет</h4>
-                    <p class="lang-education-specialization">
+                    <h4 class="education-title lang-education-title3">Харьковский государственный автомобильно-дорожный технический университет</h4>
+                    <p class="education-specialization lang-education-specialization3">
                         "Двигатели внутреннего сгорания" - Инженер-механик
                     </p>
-                    <p class="lang-period">September 2004 - June 2009
-                        <span class="lang-line">|</span> Kharkiv</p>
+                    <p class="period lang-education-period3">September 2004 - June 2009
+                        <span class="line">|</span> Kharkiv</p>
                 </div>
             </div>
         </div>
         <!--Боковая панель-->
         <aside class="sidebar">
-            <img src="./img/Serhii.jpg" alt="Фото со мной" class="photo">
+            <img src="./img/Serhii.jpg" alt="Моє Фото" class="photo">
 
             <!--Контакты-->
             <div class="contacts">
-                <h3 class="lang-sidebar-title">Contacts</h3>
+                <h3 class="sidebar-title lang-sidebar-title">Contacts</h3>
                 <div>
                     <p>
-                        <span class="lang-contact-type">A:</span>
-                        <a class="lang-contact-link"
+                        <span class="contact-type lang-contact-adress">A:</span>
+                        <a class="contact-link lang-contact-link"
                             href="https://www.google.com/maps/place/%D1%83%D0%BB.+%D0%9A%D0%B8%D1%80%D0%B3%D0%B8%D0%B7%D1%81%D0%BA%D0%B0%D1%8F,+2,+%D0%A5%D0%B0%D1%80%D1%8C%D0%BA%D0%BE%D0%B2,+%D0%A5%D0%B0%D1%80%D1%8C%D0%BA%D0%BE%D0%B2%D1%81%D0%BA%D0%B0%D1%8F+%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D1%8C,+61000/@49.9462615,36.2690515,17.75z/data=!4m8!1m2!2m1!1z0LrQsNGA0YLRiyDQs9GD0LPQuw!3m4!1s0x41270a954648c861:0xd4c36c0962ac1fd4!8m2!3d49.9467104!4d36.268237">Kharkiv,
                             Kirgizska str.,2</a>
                     </p>
                     <p>
-                        <span class="lang-contact-type">C:</span>
+                        <span class="contact-type lang-contact-telephone">C:</span>
                         <a class="contact-link" href="tel:+380976157541">+38 097 61 57 541</a>
                     </p>
                     <p>
-                        <span class="lang-contact-type">E:</span>
+                        <span class="contact-type lang-contact-email">E:</span>
                         <a class="contact-link" href="mailto:svetlichniy1905@gmail.com">svetlichniy1905@gmail.com</a>
                     </p>
                 </div>
@@ -287,13 +291,16 @@
 
             <!--Технические навыки-->
             <div class="tech-skills">
-                <h3 class="lang-sidebar-title">Tech skills</h3>
+                <h3 class="sidebar-title lang-tech-skills-title">Tech skills</h3>
                 <ul class="tech-skills-list">
                     <li class="tech-skills-item">
                         <span class="tech-skills-text">HTML5</span>
-                    </li>
+                    </li>                    
                     <li class="tech-skills-item">
                         <span class="tech-skills-text">CSS3</span>
+                    </li>
+                    <li class="tech-skills-item">
+                        <span class="tech-skills-text">JavaScript</span>
                     </li>
                     <li class="tech-skills-item">
                         <span class="tech-skills-text">GIT</span>
@@ -303,7 +310,7 @@
 
             <!--Профессиональные навыки-->
             <div class="soft-skills">
-                <h3 class="lang-sidebar-title">Soft skills</h3>
+                <h3 class="sidebar-title lang-soft-skills-title">Soft skills</h3>
                 <ol class="soft-skills-ol-list">
                     <li class="soft-skills-ol-item">
                         <span class="soft-skills-ol-text">Scrum</span>
@@ -314,37 +321,46 @@
                 </ol>
                 <ul class="soft-skills-ul-list">
                     <li class="soft-skills-ul-item">
-                        <span class="lang-soft-skills-ul-text">Knowledge of the basics of testing;</span>
+                        <span class="soft-skills-ul-text lang-soft-skills-li1">Knowledge of the basics of
+                            testing;</span>
                     </li>
                     <li class="soft-skills-ul-item">
-                        <span class="lang-soft-skills-ul-text">Knowledge of HTML, CSS, SQL, JavaScript at a level sufficient
+                        <span class="soft-skills-ul-text lang-soft-skills-li2">Knowledge of HTML, CSS, SQL, JavaScript
+                            at a level sufficient
                             to create and support tests;</span>
                     </li>
                     <li class="soft-skills-ul-item">
-                        <span class="lang-soft-skills-ul-text">Experience working in MS Windows operating systems;</span>
+                        <span class="soft-skills-ul-text lang-soft-skills-li3">Experience working in MS Windows
+                            operating systems;</span>
                     </li>
                     <li class="soft-skills-ul-item">
-                        <span class="lang-soft-skills-ul-text">Understanding how browsers work (Chrome, Firefox, IE,
+                        <span class="soft-skills-ul-text lang-soft-skills-li4">Understanding how browsers work (Chrome,
+                            Firefox, IE,
                             Yandex);</span>
                     </li>
                     <li class="soft-skills-ul-item">
-                        <span class="lang-soft-skills-ul-text">Familiar with the basic techniques of test design (equivalence
+                        <span class="soft-skills-ul-text lang-soft-skills-li5">Familiar with the basic techniques of
+                            test design (equivalence
                             classes, boundary values, state and transition diagram);</span>
                     </li>
                     <li class="soft-skills-ul-item">
-                        <span class="lang-soft-skills-ul-text">I have an idea about the preparation of test cases, checklists
+                        <span class="soft-skills-ul-text lang-soft-skills-li6">I have an idea about the preparation of
+                            test cases, checklists
                             and bug reports;</span>
                     </li>
                     <li class="soft-skills-ul-item">
-                        <span class="lang-soft-skills-ul-text">I am familiar with the work of the bug tracking system
+                        <span class="soft-skills-ul-text lang-soft-skills-li7">I am familiar with the work of the bug
+                            tracking system
                             (Jira);</span>
                     </li>
                     <li class="soft-skills-ul-item">
-                        <span class="lang-soft-skills-ul-text">Ability to work with the C# programming language and its
+                        <span class="soft-skills-ul-text lang-soft-skills-li8">Ability to work with the C# programming
+                            language and its
                             integrated development environment Microsoft Visual Studio;</span>
                     </li>
                     <li class="soft-skills-ul-item">
-                        <span class="lang-soft-skills-ul-text">Understanding software development methodologies.</span>
+                        <span class="soft-skills-ul-text lang-soft-skills-li9">Understanding software development
+                            methodologies.</span>
                     </li>
                 </ul>
             </div>
