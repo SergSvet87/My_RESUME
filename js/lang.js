@@ -185,14 +185,14 @@ const translateArr = {
     "ru": "Личностные качества:",
   },
   "soft-skills-li1": {
+    "ua": "Знання HTML, CSS, SQL, JavaScript на рівні, достатньому для створення та підтримки сайту;",
+    "en": "Knowledge of HTML, CSS, SQL, JavaScript at a level sufficient to create and support tests;",
+    "ru": "Знание основ HTML, CSS, SQL, JavaScript;",
+  },
+  "soft-skills-li2": {
     "ua": "Знання основ тестування;",
     "en": "Knowledge of the basics of testing;",
     "ru": "Знание основ тестирования;",
-  },
-  "soft-skills-li2": {
-    "ua": "Знання HTML, CSS, SQL, JavaScript на рівні, достатньому для створення та підтримки тестів;",
-    "en": "Knowledge of HTML, CSS, SQL, JavaScript at a level sufficient to create and support tests;",
-    "ru": "",
   },
   "soft-skills-li3": {
     "ua": "Досвід роботи з операційною системою MS Windows;",
@@ -220,9 +220,9 @@ const translateArr = {
     "ru": "Знаком с работой баг-трекинговой системой (Jira);",
   },
   "soft-skills-li8": {
-    "ua": "Вміння працювати з мовою програмування C# та її інтегрованим середовищем розробки Microsoft Visual Studio. Працюю з редактором коду для кросплатформної розробки веб- та хмарних додатків Visual Studio Code;",
+    "ua": "Працюю з редактором коду для кросплатформної розробки веб- та хмарних додатків Visual Studio Code. Є навички працювання з мовою програмування C# та її інтегрованим середовищем розробки Microsoft Visual Studio. ;",
     "en": "Ability to work with the C# programming language and its integrated development environment Microsoft Visual Studio;",
-    "ru": "Умение работать с языком программирования C# и его интегрированной средой разработки Microsoft Visual Studio. Работаю с редактором кода для кроссплатформенной разработки веб- и облачных приложений Visual Studio Code;",
+    "ru": "Работаю с редактором кода для кроссплатформенной разработки веб- и облачных приложений Visual Studio Code. Умение работать с языком программирования C# и его интегрированной средой разработки Microsoft Visual Studio. ;",
   },
   "soft-skills-li9": {
     "ua": "Розуміння методологій розробки програмного забезпечення.",

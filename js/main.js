@@ -3,6 +3,7 @@ const allLang = ['en', 'ua', 'ru'];
 const header = document.querySelector('.header')
 const sidebar = document.querySelector('.sidebar')
 
+
 select.addEventListener('change', changeLangURL, changeLangBg);
 
 
@@ -31,6 +32,7 @@ function changeLang() {
 }
 
 function changeLangBg() {
+  console.log(header);
   let hash = window.location.hash;
   hash = hash.substring(1);
   if (!allLang.includes(hash)) {
@@ -39,11 +41,11 @@ function changeLangBg() {
   }
 
   select.value = hash;
+  console.log(header);
+  console.log(allLang[1]);
 
   for (let key in allLang) {
-    console.log(header);
-    console.log(key[1]);
-    console.log(allLang[1]);
+    
     // if (elem) {
     //   header.style.background = `../img/flag-of-${key}.webp`;
     //   header.style.backgroundPosition = center;

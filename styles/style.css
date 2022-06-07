@@ -267,10 +267,13 @@ option:not(:last-child) {
   margin-bottom: 40px;
 }
 
-.tech-skills-list,
+.tech-skills-list{
+  color: #ffffff;
+}
+
 .soft-skills-ol-list,
 .soft-skills-ul-list {
-  color: white;
+  color: #000000;
   padding: 0;
   margin-left: 20px;
 }
@@ -289,10 +292,13 @@ option:not(:last-child) {
   color: #fb6d3a;
 }
 
-.tech-skills-text,
+.tech-skills-text{
+  color: #ffffff;
+}
+
 .soft-skills-ol-text,
 .soft-skills-ul-text {
-  color: white;
+  color: #000000;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
