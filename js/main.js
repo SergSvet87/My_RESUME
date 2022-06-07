@@ -4,7 +4,7 @@ const header = document.querySelector('.header')
 const sidebar = document.querySelector('.sidebar')
 
 
-select.addEventListener('change', changeLangURL, changeLangBg);
+select.addEventListener('change', changeLangURL);
 
 
 function changeLangURL() {
@@ -32,26 +32,14 @@ function changeLang() {
 }
 
 function changeLangBg() {
-  console.log(header);
-  let hash = window.location.hash;
-  hash = hash.substring(1);
-  if (!allLang.includes(hash)) {
-    location.href = `${window.location.pathname}#ua`;
-    location.reload();
-  }
-
-  select.value = hash;
-  console.log(header);
-  console.log(allLang[1]);
-
-  for (let key in allLang) {
-    
-    // if (elem) {
-    //   header.style.background = `../img/flag-of-${key}.webp`;
-    //   header.style.backgroundPosition = center;
-    //   header.style.backgroundRepeat = no-repeat;
-    // }
+  if (select.value === allLang[1]) {
+    header.style.background = "url(../img/flag-of-ua.webp) center / cover no-repeat"
+  } else if (select.value === allLang[0]) {
+    header.style.background = "url(../img/flag-of-en.webp) 0 0 / cover no-repeat"
+  } else if (select.value === allLang[2]) {
+    header.style.background = "url(../img/flag-of-ru.webp) 50% / cover no-repeat"
   }
 }
 
 changeLang();
+changeLangBg();
