@@ -22,24 +22,31 @@ body {
   margin-bottom: 20px;
 }
 
-.about div {
-}
-
 .header {
   width: 100%;
   height: 60px;
-  background: url(../img/flag-of-ukraine.webp) center / cover no-repeat;
+  background: url(../img/flag-of-ua.webp) center / cover no-repeat;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  border-radius: 20px
 }
 
 select {
-  background: #6184b7;
+  background: #9eb4d3;
   width: 55px;
   height: 40px;
   margin-right: 15px;
+  padding-left: 4px;
   border-radius: 10px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 18px;
+  text-shadow: 2px 2px #1c87c9;
+}
+
+option:not(:last-child) {
+  padding-bottom: 10px;
 }
 
 .about-position {
@@ -205,7 +212,7 @@ select {
 
 /*sidebar*/
 .sidebar {
-  background: url(../img/flag-of-ukraine.webp) 50% / cover no-repeat;
+  background: url(../img/flag-of-ua.webp) 50% / cover no-repeat;
   padding-top: 40px;
   width: 370px;
 }
@@ -249,7 +256,7 @@ select {
   font-weight: normal;
   font-size: 14px;
   line-height: 24px;
-  color: #0de1d7;
+  color: #2ffff5;
 }
 
 .contact-link:hover {

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ua">
+<html lang="ru">
 
 <head>
     <meta charset="UTF-8">
@@ -15,29 +15,31 @@
 
 <body>
     <!--Главная-->
-    <div class="main">
+    <main class="main">
         <!--Описание-->
         <div class="main-content">
             <!--Обо мне-->
-            <div class="about">
-                <div class="header">
+            <section class="about">
+                <header class="header">
                     <h2 class="about-position">Front-End Development</h2>
 
-                    <select name="lang" id="" class="change-lang">
+                    <select name="lang" id="lang" class="change-lang">
                         <option value="ua" selected>UA</option>
                         <option value="en">EN</option>
                         <option value="ru">RU</option>
                     </select>
-                </div>
+                </header>
 
                 <h1 class="about-name lang-about-name">Сергій Світличний</h1>
 
-                <p class="about-description lang-about-description">Вмію продуктивно працювати в команді, відповідальний, уважний, швидко приймаю рішення, вмію самоорганізуватися, компетентний, врівноважений, цілеспрямований, дисциплінований, націлений на результат, комунікабельний.
+                <p class="about-description lang-about-description">Вмію продуктивно працювати в команді,
+                    відповідальний, уважний, швидко приймаю рішення, вмію самоорганізуватися, компетентний,
+                    врівноважений, цілеспрямований, дисциплінований, націлений на результат, комунікабельний.
                 </p>
-            </div>
+            </section>
 
             <!--Проекти-->
-            <div class="projects">
+            <section class="projects">
                 <h3 class="title lang-title-projects">Мої Проєкти</h3>
                 <ol class="project-list">
                     <li class="projects-item">
@@ -164,10 +166,10 @@
                         </span>
                     </li>
                 </ol>
-            </div>
+            </section>
 
             <!--Работа-->
-            <div class="work">
+            <section class="work">
                 <h3 class="title lang-title-work">Досвід роботи:</h3>
                 <!--Предприяие 1-->
                 <div>
@@ -228,10 +230,10 @@
                         Д100, а также работал Инженером-конструктором и испытателем двигателей.
                     </p>
                 </div>
-            </div>
+            </section>
 
             <!--Образование-->
-            <div class="education">
+            <section class="education">
                 <h3 class="title lang-title-education">Education</h3>
 
                 <!--Учереждение 1-->
@@ -247,7 +249,8 @@
 
                 <!--Учереждение 2-->
                 <div class="education">
-                    <h4 class="education-title lang-education-title2">Национальный технический университет "Днепровская политехника"</h4>
+                    <h4 class="education-title lang-education-title2">Национальный технический университет "Днепровская
+                        политехника"</h4>
                     <p class="education-specialization lang-education-specialization2">
                         "Бурение скважин" - Инженер-механик
                     </p>
@@ -258,7 +261,8 @@
 
                 <!--Учереждение 3-->
                 <div class="education">
-                    <h4 class="education-title lang-education-title3">Харьковский государственный автомобильно-дорожный технический университет</h4>
+                    <h4 class="education-title lang-education-title3">Харьковский государственный автомобильно-дорожный
+                        технический университет</h4>
                     <p class="education-specialization lang-education-specialization3">
                         "Двигатели внутреннего сгорания" - Инженер-механик
                     </p>
@@ -266,14 +270,14 @@
                         <span class="line">|</span> Kharkiv
                     </p>
                 </div>
-            </div>
+            </section>
         </div>
         <!--Боковая панель-->
         <aside class="sidebar">
             <img src="./img/Serhii.jpg" alt="Моє Фото" class="photo">
 
             <!--Контакты-->
-            <div class="contacts">
+            <section class="contacts">
                 <h3 class="sidebar-title lang-sidebar-title">Contacts:</h3>
                 <div>
                     <p>
@@ -291,15 +295,15 @@
                         <a class="contact-link" href="mailto:svetlichniy1905@gmail.com">svetlichniy1905@gmail.com</a>
                     </p>
                 </div>
-            </div>
+            </section>
 
             <!--Технические навыки-->
-            <div class="tech-skills">
+            <section class="tech-skills">
                 <h3 class="sidebar-title lang-tech-skills-title">Tech skills</h3>
                 <ul class="tech-skills-list">
                     <li class="tech-skills-item">
                         <span class="tech-skills-text">HTML5</span>
-                    </li>                    
+                    </li>
                     <li class="tech-skills-item">
                         <span class="tech-skills-text">CSS3</span>
                     </li>
@@ -309,11 +313,14 @@
                     <li class="tech-skills-item">
                         <span class="tech-skills-text">GIT</span>
                     </li>
+                    <li class="tech-skills-item">
+                        <span class="tech-skills-text">SQL</span>
+                    </li>
                 </ul>
-            </div>
+            </section>
 
             <!--Профессиональные навыки-->
-            <div class="soft-skills">
+            <section class="soft-skills">
                 <h3 class="sidebar-title lang-soft-skills-title">Soft skills</h3>
                 <ol class="soft-skills-ol-list">
                     <li class="soft-skills-ol-item">
@@ -330,8 +337,7 @@
                     </li>
                     <li class="soft-skills-ul-item">
                         <span class="soft-skills-ul-text lang-soft-skills-li2">Knowledge of HTML, CSS, SQL, JavaScript
-                            at a level sufficient
-                            to create and support tests;</span>
+                            at a level sufficient to create and support tests;</span>
                     </li>
                     <li class="soft-skills-ul-item">
                         <span class="soft-skills-ul-text lang-soft-skills-li3">Experience working in MS Windows
@@ -339,37 +345,32 @@
                     </li>
                     <li class="soft-skills-ul-item">
                         <span class="soft-skills-ul-text lang-soft-skills-li4">Understanding how browsers work (Chrome,
-                            Firefox, IE,
-                            Yandex);</span>
+                            Firefox, IE, Yandex);</span>
                     </li>
                     <li class="soft-skills-ul-item">
                         <span class="soft-skills-ul-text lang-soft-skills-li5">Familiar with the basic techniques of
-                            test design (equivalence
-                            classes, boundary values, state and transition diagram);</span>
+                            test design (equivalence classes, boundary values, state and transition diagram);</span>
                     </li>
                     <li class="soft-skills-ul-item">
                         <span class="soft-skills-ul-text lang-soft-skills-li6">I have an idea about the preparation of
-                            test cases, checklists
-                            and bug reports;</span>
+                            test cases, checklists and bug reports;</span>
                     </li>
                     <li class="soft-skills-ul-item">
                         <span class="soft-skills-ul-text lang-soft-skills-li7">I am familiar with the work of the bug
-                            tracking system
-                            (Jira);</span>
+                            tracking system (Jira);</span>
                     </li>
                     <li class="soft-skills-ul-item">
                         <span class="soft-skills-ul-text lang-soft-skills-li8">Ability to work with the C# programming
-                            language and its
-                            integrated development environment Microsoft Visual Studio;</span>
+                            language and its integrated development environment Microsoft Visual Studio;</span>
                     </li>
                     <li class="soft-skills-ul-item">
                         <span class="soft-skills-ul-text lang-soft-skills-li9">Understanding software development
                             methodologies.</span>
                     </li>
                 </ul>
-            </div>
+            </section>
         </aside>
-    </div>
+    </main>
 </body>
 
 </html>

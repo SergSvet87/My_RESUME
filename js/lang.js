@@ -1,4 +1,4 @@
-const langArr = {
+const translateArr = {
   "head-title": {
     "ua": "Моє Резюме",
     "en": "My Resume",
@@ -190,43 +190,43 @@ const langArr = {
     "ru": "Знание основ тестирования;",
   },
   "soft-skills-li2": {
-    "ua": "",
+    "ua": "Знання HTML, CSS, SQL, JavaScript на рівні, достатньому для створення та підтримки тестів;",
     "en": "Knowledge of HTML, CSS, SQL, JavaScript at a level sufficient to create and support tests;",
     "ru": "",
   },
   "soft-skills-li3": {
-    "ua": "",
-    "en": "",
-    "ru": "",
+    "ua": "Досвід роботи з операційною системою MS Windows;",
+    "en": "Experience working in MS Windows operating systems;",
+    "ru": "Опыт работы c операционной системой MS Windows;",
   },
   "soft-skills-li4": {
-    "ua": "",
-    "en": "",
-    "ru": "",
+    "ua": "Розуміння принципів роботи браузерів (Chrome, Firefox, IE, Yandex);",
+    "en": "Understanding how browsers work (Chrome, Firefox, IE, Yandex);",
+    "ru": "Понимание принципов работы браузеров (Chrome, Firefox, IE, Yandex);",
   },
   "soft-skills-li5": {
-    "ua": "",
-    "en": "",
-    "ru": "",
+    "ua": "Знайомий з основними техніками тест-дизайну (класи еквівалентності, граничні значення, діаграма станів та переходів);",
+    "en": "Familiar with the basic techniques of test design (equivalence classes, boundary values, state and transition diagram);",
+    "ru": "Знаком с основными техниками тест-дизайна (классы эквивалентности, граничные значения, диаграмма состояний и переходов);",
   },
   "soft-skills-li6": {
-    "ua": "",
-    "en": "",
-    "ru": "",
+    "ua": "Маю уявлення про складання тест-кейсів, чек-листів та баг-репортів;",
+    "en": "I have an idea about the preparation of test cases, checklists and bug reports;",
+    "ru": "Имею представление о составлении тест-кейсов, чек-листов и баг-репортов;",
   },
   "soft-skills-li7": {
-    "ua": "",
-    "en": "",
-    "ru": "",
+    "ua": "Знайомий з баг-трекінговою системою (Jira);",
+    "en": "I am familiar with the work of the bug tracking system (Jira);",
+    "ru": "Знаком с работой баг-трекинговой системой (Jira);",
   },
   "soft-skills-li8": {
-    "ua": "",
-    "en": "",
-    "ru": "",
+    "ua": "Вміння працювати з мовою програмування C# та її інтегрованим середовищем розробки Microsoft Visual Studio. Працюю з редактором коду для кросплатформної розробки веб- та хмарних додатків Visual Studio Code;",
+    "en": "Ability to work with the C# programming language and its integrated development environment Microsoft Visual Studio;",
+    "ru": "Умение работать с языком программирования C# и его интегрированной средой разработки Microsoft Visual Studio. Работаю с редактором кода для кроссплатформенной разработки веб- и облачных приложений Visual Studio Code;",
   },
   "soft-skills-li9": {
-    "ua": "",
-    "en": "",
-    "ru": "",
+    "ua": "Розуміння методологій розробки програмного забезпечення.",
+    "en": "Understanding software development methodologies.",
+    "ru": "Понимание методологий разработки программного обеспечения.",
   },
 }
