@@ -40,7 +40,6 @@ function changeLangBg() {
   } else if (select.value === allLang[2]) {
     header.style.background = "url(../img/flag-of-ru.webp) 50% / cover no-repeat";
     header.style.backgroundSize = "100% 100%";
-
   }
 }
 
