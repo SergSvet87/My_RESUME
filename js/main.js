@@ -36,10 +36,10 @@ function changeLangBg() {
     header.style.background = "url(../img/flag-of-ua.webp) center / cover no-repeat"
   } else if (select.value === allLang[0]) {
     header.style.background = "url(../img/flag-of-en.webp) no-repeat";
-    header.style.backgroundSize = "100% 100%";
+    // header.style.backgroundSize = "100% 100%";
   } else if (select.value === allLang[2]) {
     header.style.background = "url(../img/flag-of-ru.webp) 50% / cover no-repeat";
-    header.style.backgroundSize = "100% 100%";
+    // header.style.backgroundSize = "100% 100%";
   }
 }
 
