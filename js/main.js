@@ -6,13 +6,14 @@ const sidebar = document.querySelector('.sidebar')
 
 select.addEventListener('change', changeLangURL);
 
-
+// Преоббразование строки с дописанием выбраннного языка
 function changeLangURL() {
   let lang = select.value;
   location.href = `${window.location.pathname}#${lang}`;
   location.reload();
 }
 
+// Изменение языка на сайте с помощью lang.js
 function changeLang() {
   let hash = window.location.hash;
   hash = hash.substring(1);
@@ -31,6 +32,7 @@ function changeLang() {
   }
 }
 
+// Изменение бэкграунда хедера
 function changeLangBg() {
   for (let elem of allLang){
     if (elem === 'ua') {
