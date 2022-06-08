@@ -33,7 +33,6 @@ function changeLang() {
 
 function changeLangBg() {
   for (let elem of allLang){
-    console.log(elem);
     if (elem === 'ua') {
       header.style.background = "url(../img/flag-of-ua.webp) center / cover no-repeat"
     } else if (select.value === 'en') {
