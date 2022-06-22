@@ -11,10 +11,30 @@ body {
   width: 1200px;
   margin: 0 auto;
 }
+
 .main-content {
+  position: relative;
   background-color: #ffffff;
   box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
   padding: 30px 90px 90px;
+}
+
+/* Theme */
+.theme {
+  position: absolute;
+  right: 20px;
+  cursor: pointer;
+  width: 50px;
+  height: 30px;
+  background-color: #333;
+  transform: translateY(-50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  background: #ffffff;
+  border-radius: 50px;
+  box-shadow: 0 0 10px rgba(39,38,40,0.4);
 }
 
 /*about style*/
@@ -29,12 +49,13 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border-radius: 20px
+  border-radius: 20px;
+  margin-top: 20px;
 }
 
 select {
   background: #9eb4d3;
-  width: 55px;
+  width: 58px;
   height: 40px;
   margin-right: 15px;
   padding-left: 2px;
@@ -142,6 +163,15 @@ option:not(:last-child) {
   margin-bottom: 50px;
 }
 
+.organization {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  color: #4a668f;
+  margin-bottom: -5px;
+}
+
 .work-position {
   font-style: normal;
   font-weight: bold;
@@ -149,14 +179,6 @@ option:not(:last-child) {
   line-height: 20px;
   color: #000000;
   margin-bottom: 10px;
-}
-
-.organization {
-  font-style: normal;
-  font-weight: bold;
-  font-size: 16px;
-  line-height: 20px;
-  color: #4a668f;
 }
 
 .period {
@@ -168,13 +190,14 @@ option:not(:last-child) {
   margin-bottom: 10px;
 }
 
-.line {
+p > span {
   margin: 0 5px;
+  color: #000000;
 }
 
 .work-description {
   padding: 0;
-  margin-left: 15px;
+  margin: 0 15px 35px;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -183,13 +206,13 @@ option:not(:last-child) {
   text-align: justify;
 }
 
-.work-4 {
-  margin-bottom: 50px;
+/*education style*/
+.educations {
+  margin-bottom: 10px;
 }
 
-/*education style*/
-.education {
-  margin-bottom: 8px;
+.education:not(:last-child) {
+  margin-bottom: 30px;
 }
 
 .education-title {
@@ -207,7 +230,6 @@ option:not(:last-child) {
   font-size: 14px;
   line-height: 17px;
   color: #000000;
-  margin-bottom: 10px;
 }
 
 /*sidebar*/
@@ -267,7 +289,7 @@ option:not(:last-child) {
   margin-bottom: 40px;
 }
 
-.tech-skills-list{
+.tech-skills-list {
   color: #ffffff;
 }
 
@@ -292,7 +314,7 @@ option:not(:last-child) {
   color: #fb6d3a;
 }
 
-.tech-skills-text{
+.tech-skills-text {
   color: #ffffff;
 }
 

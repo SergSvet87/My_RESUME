@@ -1,0 +1,92 @@
+/* Стили для темной темы */
+
+/*стили для всего контента*/
+body {
+  background-color: #333;
+  color: #fff;
+}
+
+/*main style*/
+.main-content {
+  background-color: #333;
+  box-shadow: 6px 6px 20px rgba(255, 255, 255, 0.7);
+}
+
+/* Theme */
+.theme {
+  background: #333;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.7);
+}
+
+/*about style*/
+.header {
+  box-shadow: 0 5px 10px rgba(255, 255, 255, 0.7);
+}
+
+select {
+  background: #6e7f97;
+  text-shadow: 2px 2px #359edf;
+}
+
+.about-position {
+  color: #dad0d0;
+  text-shadow: 1px 1px 5px #7bc7f7;
+}
+
+.about-name {
+  color: #fff;
+}
+
+.about-description {
+  color: #cfcfcf;
+}
+
+/*все заголовки*/
+.title {
+  color: #fff;
+}
+
+
+/*projects style*/
+.project,
+.project-link {
+  color: #db6c6c;
+}
+
+.project-link:visited {
+  color: #6fdfdf;
+}
+
+.project-link:hover {
+  color: #cfcfcf;
+}
+
+/*work style*/
+.work-position {
+  color: #fff;
+}
+
+.organization {
+  color: #7a9bcb;
+}
+
+.period {
+  color: #cfcfcf;
+}
+
+p > span {
+  color: #fff;
+}
+
+.work-description {
+  color: #dad0d0;
+}
+
+/*education style*/
+.education-title {
+  color: #7a9bcb;
+}
+
+.education-specialization {
+  color: #fff;
+}

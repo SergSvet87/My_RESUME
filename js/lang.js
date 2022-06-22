@@ -99,11 +99,6 @@ const translateArr = {
     "en": "2009 - 2013 years <span class=&quot;line&quot;> | </span> Kharkiv",
     "ru": "2009 - 2013 года <span class=&quot;line&quot;> | </span> Харьков",
   },
-  "period-span4": {
-    "ua": "Харків",
-    "en": "Kharkiv",
-    "ru": "Харьков",
-  },
   "work-description4": {
     "ua": "Під час роботи займався налаштуванням та проведення випробувань дизель-генераторів сімейства Д100, а також працював Інженером-конструктором та Випробувачем двигунів.",
     "en": "During his work, I was engaged in setting up and testing diesel generators of the family D100, and also worked as a Design Engineer and Engine Tester.",
