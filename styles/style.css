@@ -5,11 +5,80 @@ body {
 }
 
 /*main style*/
-.main {
+.container {
   display: flex;
   flex-direction: row-reverse;
-  width: 1200px;
+  max-width: 1200px;
   margin: 0 auto;
+}
+
+@media only screen and (max-width: 1600px) {
+  .container {
+    max-width: 1150px;
+  }
+  p > .about-description {
+    max-width: 1000px;
+  }
+  .sidebar {
+    max-width: 500px;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  body {
+    padding: 0 25px;
+  }
+
+  .container {
+    max-width: 900px;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .container {
+    max-width: 750px;
+  }
+  select {
+    width: 38px;
+    height: 10px;
+  }
+  .about {
+    width: 100%;
+  }
+  .about-name{
+    font-size: 32px;
+  }
+  .about-description{
+    font-size: 12px;
+    line-height: 20px;
+  }
+  .sidebar {
+    max-width: 200px;
+  }
+  .photo{
+    margin-top: -15px;
+  }
+}
+
+@media (max-width: 767px) {
+  .container {
+    max-width: 450px;
+  }
+  .sidebar {
+    max-width: 250px;
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    max-width: 300px;
+  }
+}
+
+@media (max-width: 320px) {
+  .container {
+    max-width: none;
+  }
 }
 
 .main-content {
@@ -24,8 +93,8 @@ body {
   position: absolute;
   right: 20px;
   cursor: pointer;
-  width: 50px;
-  height: 30px;
+  max-width: calc(50px);
+  max-height: 30px;
   background-color: #333;
   transform: translateY(-50%);
   display: flex;
@@ -34,7 +103,7 @@ body {
   padding: 10px;
   background: #ffffff;
   border-radius: 50px;
-  box-shadow: 0 0 10px rgba(39,38,40,0.4);
+  box-shadow: 0 0 10px rgba(39, 38, 40, 0.4);
 }
 
 /*about style*/
@@ -55,7 +124,7 @@ body {
 
 select {
   background: #9eb4d3;
-  width: 58px;
+  max-width: 58px;
   height: 40px;
   margin-right: 15px;
   padding-left: 2px;
@@ -94,7 +163,7 @@ option:not(:last-child) {
   font-size: 14px;
   line-height: 24px;
   color: #000000;
-  width: 550px;
+  max-width: calc(300px + (900px - 300px) * ((100vw-320px)/ (1200 - 320)));
   text-align: justify;
   margin-bottom: 50px;
 }
@@ -235,12 +304,12 @@ p > span {
 /*sidebar*/
 .sidebar {
   background: url(../img/flag-of-ua.webp) 50% / cover no-repeat;
-  padding-top: 40px;
-  width: 370px;
+  padding-top: 50px;
+  max-width: calc(300px + (900px - 300px) * ((100vw-320px)/ (1200 - 320)));
 }
 
 .photo {
-  width: 370px;
+  width: 100%;
   margin-bottom: 30px;
 }
 
