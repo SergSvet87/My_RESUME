@@ -1,0 +1,1211 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="keywords"
+      content="html, css, javascript, frontend, skills, jobs, educations, contacts, resume, svitlychnyi, serhii, cv"
+    />
+    <meta
+      name="description"
+      content="Це сайт-резюме Сергія Світличного. Історія про мене, як кращого кандидата в Junior- або Trainee- розробника для підсилення команди Вашої компанії."
+    />
+    <meta name="author" content="Світличний Сергій" />
+    <title class="head-title lang-head-title">Моє Резюме</title>
+    <link rel="shortcut icon" href="img/icons/cv.ico" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/normalize.min.css" />
+    <link rel="stylesheet" href="css/reset.min.css" />
+    <link rel="stylesheet" href="css/style.min.css" />
+
+    <script defer src="js/lang.js"></script>
+    <script defer src="js/main.js"></script>
+    <link rel="stylesheet" title="theme" href="#" />
+  </head>
+
+  <body>
+    <script defer src="js/theme.js"></script>
+
+    <!-- Page Preloader -->
+    <div id="preloder" class="preloder">
+      <div class="loader"></div>
+    </div>
+
+    <!-- Главная -->
+    <div class="container">
+      <!-- Описание -->
+      <main class="main-content">
+        <!-- Настройка темы начало -->
+        <div class="theme" id="theme">
+          <!-- солнце -->
+          <svg
+            class="theme__change"
+            data-theme="light"
+            width="30"
+            height="30"
+            viewBox="0 0 40 40"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M20 30C22.6522 30 25.1957 28.9464 27.0711 27.0711C28.9464 25.1957 30 22.6522 30 20C30 17.3478 28.9464 14.8043 27.0711 12.9289C25.1957 11.0536 22.6522 10 20 10C17.3478 10 14.8043 11.0536 12.9289 12.9289C11.0536 14.8043 10 17.3478 10 20C10 22.6522 11.0536 25.1957 12.9289 27.0711C14.8043 28.9464 17.3478 30 20 30V30ZM20 0C20.3315 0 20.6495 0.131696 20.8839 0.366117C21.1183 0.600537 21.25 0.918479 21.25 1.25V6.25C21.25 6.58152 21.1183 6.89946 20.8839 7.13388C20.6495 7.3683 20.3315 7.5 20 7.5C19.6685 7.5 19.3505 7.3683 19.1161 7.13388C18.8817 6.89946 18.75 6.58152 18.75 6.25V1.25C18.75 0.918479 18.8817 0.600537 19.1161 0.366117C19.3505 0.131696 19.6685 0 20 0V0ZM20 32.5C20.3315 32.5 20.6495 32.6317 20.8839 32.8661C21.1183 33.1005 21.25 33.4185 21.25 33.75V38.75C21.25 39.0815 21.1183 39.3995 20.8839 39.6339C20.6495 39.8683 20.3315 40 20 40C19.6685 40 19.3505 39.8683 19.1161 39.6339C18.8817 39.3995 18.75 39.0815 18.75 38.75V33.75C18.75 33.4185 18.8817 33.1005 19.1161 32.8661C19.3505 32.6317 19.6685 32.5 20 32.5V32.5ZM40 20C40 20.3315 39.8683 20.6495 39.6339 20.8839C39.3995 21.1183 39.0815 21.25 38.75 21.25H33.75C33.4185 21.25 33.1005 21.1183 32.8661 20.8839C32.6317 20.6495 32.5 20.3315 32.5 20C32.5 19.6685 32.6317 19.3505 32.8661 19.1161C33.1005 18.8817 33.4185 18.75 33.75 18.75H38.75C39.0815 18.75 39.3995 18.8817 39.6339 19.1161C39.8683 19.3505 40 19.6685 40 20ZM7.5 20C7.5 20.3315 7.3683 20.6495 7.13388 20.8839C6.89946 21.1183 6.58152 21.25 6.25 21.25H1.25C0.918479 21.25 0.600537 21.1183 0.366117 20.8839C0.131696 20.6495 0 20.3315 0 20C0 19.6685 0.131696 19.3505 0.366117 19.1161C0.600537 18.8817 0.918479 18.75 1.25 18.75H6.25C6.58152 18.75 6.89946 18.8817 7.13388 19.1161C7.3683 19.3505 7.5 19.6685 7.5 20ZM34.1425 5.8575C34.3768 6.09191 34.5085 6.40979 34.5085 6.74125C34.5085 7.07271 34.3768 7.39059 34.1425 7.625L30.6075 11.1625C30.4913 11.2786 30.3533 11.3706 30.2016 11.4333C30.0498 11.4961 29.8871 11.5283 29.7229 11.5282C29.3912 11.528 29.0731 11.396 28.8387 11.1612C28.7227 11.045 28.6307 10.9071 28.5679 10.7553C28.5052 10.6035 28.4729 10.4409 28.4731 10.2766C28.4733 9.94491 28.6053 9.62689 28.84 9.3925L32.375 5.8575C32.6094 5.62316 32.9273 5.49152 33.2588 5.49152C33.5902 5.49152 33.9081 5.62316 34.1425 5.8575V5.8575ZM11.16 28.84C11.3943 29.0744 11.526 29.3923 11.526 29.7237C11.526 30.0552 11.3943 30.3731 11.16 30.6075L7.625 34.1425C7.38925 34.3702 7.07349 34.4962 6.74575 34.4933C6.418 34.4905 6.10449 34.359 5.87273 34.1273C5.64097 33.8955 5.50951 33.582 5.50666 33.2543C5.50381 32.9265 5.6298 32.6108 5.8575 32.375L9.3925 28.84C9.62691 28.6057 9.94479 28.474 10.2762 28.474C10.6077 28.474 10.9256 28.6057 11.16 28.84V28.84ZM34.1425 34.1425C33.9081 34.3768 33.5902 34.5085 33.2588 34.5085C32.9273 34.5085 32.6094 34.3768 32.375 34.1425L28.84 30.6075C28.6123 30.3717 28.4863 30.056 28.4892 29.7282C28.492 29.4005 28.6235 29.087 28.8552 28.8552C29.087 28.6235 29.4005 28.492 29.7282 28.4892C30.056 28.4863 30.3717 28.6123 30.6075 28.84L34.1425 32.375C34.3768 32.6094 34.5085 32.9273 34.5085 33.2588C34.5085 33.5902 34.3768 33.9081 34.1425 34.1425ZM11.16 11.1625C10.9256 11.3968 10.6077 11.5285 10.2762 11.5285C9.94479 11.5285 9.62691 11.3968 9.3925 11.1625L5.8575 7.625C5.73811 7.50969 5.64288 7.37176 5.57737 7.21926C5.51186 7.06675 5.47738 6.90273 5.47594 6.73675C5.47449 6.57078 5.50612 6.40618 5.56897 6.25256C5.63182 6.09894 5.72464 5.95937 5.84201 5.84201C5.95937 5.72464 6.09894 5.63182 6.25256 5.56897C6.40618 5.50612 6.57078 5.47449 6.73675 5.47594C6.90273 5.47738 7.06675 5.51186 7.21926 5.57737C7.37176 5.64288 7.50969 5.73811 7.625 5.8575L11.16 9.3925C11.2764 9.50861 11.3688 9.64655 11.4318 9.79842C11.4948 9.95028 11.5272 10.1131 11.5272 10.2775C11.5272 10.4419 11.4948 10.6047 11.4318 10.7566C11.3688 10.9084 11.2764 11.0464 11.16 11.1625V11.1625Z"
+              fill="#ffffff"
+            ></path>
+          </svg>
+
+          <!-- Луна -->
+          <svg
+            class="theme__change"
+            data-theme="dark"
+            width="32"
+            height="30"
+            viewBox="0 0 38 40"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+            style="display: block"
+          >
+            <path
+              d="M15 0.695136C15.244 0.991667 15.3935 1.35457 15.4292 1.73694C15.4648 2.11932 15.385 2.5036 15.2 2.84014C13.7546 5.49382 12.9998 8.46837 13.005 11.4901C13.005 21.5426 21.2 29.6826 31.3 29.6826C32.6175 29.6826 33.9 29.5451 35.1325 29.2826C35.5103 29.2008 35.9039 29.2321 36.264 29.3726C36.6241 29.5131 36.9349 29.7566 37.1575 30.0726C37.3925 30.4013 37.5123 30.7983 37.4983 31.2021C37.4842 31.6058 37.3372 31.9936 37.08 32.3051C35.1192 34.7137 32.6456 36.6544 29.8396 37.9856C27.0335 39.3168 23.9658 40.0051 20.86 40.0001C9.335 40.0001 0 30.7151 0 19.2751C0 10.6651 5.285 3.28014 12.81 0.150136C13.1848 -0.00828447 13.601 -0.0407995 13.9959 0.057475C14.3908 0.15575 14.7431 0.379507 15 0.695136V0.695136Z"
+              fill="#222222"
+            ></path>
+          </svg>
+        </div>
+        <!-- Настройка темы конец -->
+
+        <!-- Обо мне начало -->
+        <section class="about">
+          <header class="header bg-header">
+            <h2 class="about-position">Junior Front-End Development</h2>
+
+            <select name="lang" id="lang" class="change-lang">
+              <option value="ua" selected>UA</option>
+              <option value="en">EN</option>
+              <option value="ru">RU</option>
+            </select>
+          </header>
+
+          <!-- Панель под размер экрана 576рх начало-->
+          <div class="block__tablet">
+            <div class="tablet__contacts">
+              <div class="sidebar__img">
+                <img
+                  src="img/Serhii_Svit.png"
+                  alt="Аватар Моє Фото"
+                  class="tablet__photo"
+                  width="270"
+                  height="350"
+                />
+
+                <div class="photo__circle"></div>
+                <!-- /.photo__circle -->
+
+                <div class="photo__items">
+                  <div class="photo__item item-html">
+                    <img src="img/icons/html5.svg" alt="html5" />
+                  </div>
+                  <!-- /.photo__item -->
+                  <div class="photo__item item-css">
+                    <img src="img/icons/css3.svg" alt="css3" />
+                  </div>
+                  <!-- /.photo__item -->
+                  <div class="photo__item item-github">
+                    <img src="img/icons/github-2.svg" alt="github" />
+                  </div>
+                  <!-- /.photo__item -->
+                  <div class="photo__item item-git">
+                    <img src="img/icons/git.svg" alt="git" />
+                  </div>
+                  <!-- /.photo__item -->
+                  <div class="photo__item item-figma">
+                    <img src="img/icons/figma_logo.svg" alt="figma_logo" />
+                  </div>
+                  <!-- /.photo__item -->
+                  <div class="photo__item item-adobe">
+                    <img src="img/icons/adobe-xd.svg" alt="adobe-xd" />
+                  </div>
+                  <!-- /.photo__item -->
+                  <div class="photo__item item-js">
+                    <img src="img/icons/js.svg" alt="js" />
+                  </div>
+                  <!-- /.photo__item -->
+                  <div class="photo__item item-vue">
+                    <img src="img/icons/vue-js.svg" alt="vue-js" />
+                  </div>
+                  <!-- /.photo__item -->
+                  <div class="photo__item item-bootstrap">
+                    <img src="img/icons/bootstrap.svg" alt="bootstrap" />
+                  </div>
+                  <!-- /.photo__item -->
+                </div>
+                <!-- /.photo__items -->
+              </div>
+              <!-- /.sidebar__img -->
+            </div>
+          </div>
+          <!-- Панель под размер экрана 576рх конец-->
+
+          <h1 class="about-name lang-about-name">Сергій Світличний</h1>
+
+          <p class="about-description lang-about-description">
+            Вмію продуктивно працювати в команді, відповідальний, уважний,
+            швидко приймаю рішення, вмію самоорганізуватися, компетентний,
+            врівноважений, цілеспрямований, дисциплінований, націлений на
+            результат, комунікабельний.
+          </p>
+        </section>
+
+        <!-- Панель под размер экрана 576рх начало-->
+        <section class="block__tablet tablet-block">
+          <div class="tablet__contacts">
+            <!-- <img
+              src="img/Serhii_Svit.jpg"
+              alt="Аватар Моє Фото"
+              class="tablet__contacts-photo"
+              width="170"
+              height="220"
+            /> -->
+          </div>
+
+          <div class="tablet__skills-block">
+            <!--Технические навыки-->
+            <section class="tech-skills">
+              <h3 class="sidebar-title lang-tech-skills-title">Tech skills</h3>
+              <ul class="tech-skills-list">
+                <li class="tech-skills-item">
+                  <span class="tech-skills-text">HTML5</span>
+                </li>
+                <li class="tech-skills-item">
+                  <span class="tech-skills-text">CSS3</span>
+                </li>
+                <li class="tech-skills-item">
+                  <span class="tech-skills-text">SASS / SCSS</span>
+                </li>
+                <li class="tech-skills-item">
+                  <span class="tech-skills-text">Figma</span>
+                </li>
+                <li class="tech-skills-item">
+                  <span class="tech-skills-text">Adobe XD</span>
+                </li>
+                <li class="tech-skills-item">
+                  <span class="tech-skills-text">JavaScript</span>
+                </li>
+                <li class="tech-skills-item">
+                  <span class="tech-skills-text">jQuery</span>
+                </li>
+                <li class="tech-skills-item">
+                  <span class="tech-skills-text">Swiper</span>
+                </li>
+                <li class="tech-skills-item">
+                  <span class="tech-skills-text">Bootstrap</span>
+                </li>
+                <li class="tech-skills-item">
+                  <span class="tech-skills-text">GIT</span>
+                </li>
+                <li class="tech-skills-item">
+                  <span class="tech-skills-text">Gulp</span>
+                </li>
+                <li class="tech-skills-item">
+                  <span class="tech-skills-text">WordPress</span>
+                </li>
+                <li class="tech-skills-item">
+                  <span class="tech-skills-text">SQL</span>
+                </li>
+              </ul>
+            </section>
+
+            <!--Профессиональные навыки-->
+            <section class="soft-skills">
+              <h3 class="sidebar-title lang-soft-skills-title">Soft skills</h3>
+
+              <ul class="soft-skills-ul-list">
+                <li class="soft-skills-ul-item">
+                  <span class="soft-skills-ul-text lang-tablet__soft-skills-li1"
+                    >Знання HTML, CSS, SQL, JavaScript на рівні, достатньому для
+                    створення та підтримки сайту;</span
+                  >
+                </li>
+
+                <li class="soft-skills-ul-item">
+                  <span class="soft-skills-ul-text lang-tablet__soft-skills-li8"
+                    >Працюю з редактором коду для кросплатформної розробки веб-
+                    та хмарних додатків Visual Studio Code. Є навички працювання
+                    з мовою програмування C# та її інтегрованим середовищем
+                    розробки Microsoft Visual Studio;</span
+                  >
+                </li>
+
+                <li class="soft-skills-ul-item">
+                  <span class="soft-skills-ul-text lang-tablet__soft-skills-li9"
+                    >Розуміння методологій розробки програмного
+                    забезпечення;</span
+                  >
+                </li>
+                <li class="soft-skills-ul-item">
+                  <span class="soft-skills-ul-text lang-tablet__soft-skills-li7"
+                    >Знайомий з баг-трекінговою системою (Jira);</span
+                  >
+                </li>
+
+                <li class="soft-skills-ul-item">
+                  <span class="soft-skills-ul-text lang-tablet__soft-skills-li4"
+                    >Розуміння принципів роботи браузерів (Chrome, Firefox, ME,
+                    Yandex);</span
+                  >
+                </li>
+
+                <li class="soft-skills-ul-item">
+                  <span
+                    class="soft-skills-ul-text lang-tablet__soft-skills-li10"
+                    >Розумію, що таке Командна робота, Адаптивність до різних
+                    ситуацій, пошук неохідних Інформаційних матеріалів,
+                    Вирішення потупаючих проблем, підхід до роботи з
+                    Креативністю, постійне Спілкування з колективом, Трудова
+                    етика та Увага до деталей.</span
+                  >
+                </li>
+              </ul>
+            </section>
+          </div>
+        </section>
+        <!-- Панель под размер экрана 576рх конец-->
+
+        <!--Проекти начало -->
+        <section class="projects">
+          <h3 class="title lang-title-projects">Мої останні Проєкти:</h3>
+          <!-- <ol class="project-list">
+            <li class="projects-item">
+              <span class="project">
+                <a
+                  href="https://sergsvet87.github.io/Hand_Brake/"
+                  class="project-link"
+                  >Hand Brake</a
+                >
+                .....................................................
+                <span class="project-bracket">[</span>
+                HTML5, CSS3
+                <span class="project-bracket">]</span>
+              </span>
+            </li>
+            <li class="projects-item">
+              <span class="project">
+                <a
+                  href="https://sergsvet87.github.io/IPhone_13_pro/"
+                  class="project-link"
+                  >IPhone 13 PRO</a
+                >
+                ..............................................
+                <span class="project-bracket">[</span>
+                HTML5, CSS3, JavaScript
+                <span class="project-bracket">]</span>
+              </span>
+            </li>
+            <li class="projects-item">
+              <span class="project">
+                <a
+                  href="https://sergsvet87.github.io/youtube-concept/"
+                  class="project-link"
+                  >Main Page Youtube</a
+                >
+                ..................................
+                <span class="project-bracket">[</span>
+                HTML5, CSS3, JavaScript
+                <span class="project-bracket">]</span>
+              </span>
+            </li>
+            <li class="projects-item">
+              <span class="project">
+                <a
+                  href="https://sergsvet87.github.io/evarugs/"
+                  class="project-link"
+                  >Сайт автоковриков Evarugs!</a
+                >
+                ............
+                <span class="project-bracket">[</span>
+                HTML5, CSS3, JavaScript
+                <span class="project-bracket">]</span>
+              </span>
+            </li>
+            <li class="projects-item">
+              <span class="project">
+                <a
+                  href="https://sergsvet87.github.io/o-zoneShop/"
+                  class="project-link"
+                  >"O-ZONE Shop"</a
+                >
+                ............................................
+                <span class="project-bracket">[</span>
+                HTML5, CSS3, JavaScript
+                <span class="project-bracket">]</span>
+              </span>
+            </li>
+            <li class="projects-item">
+              <span class="project">
+                <a
+                  href="https://sergsvet87.github.io/Elevate_Your_Everyday/"
+                  class="project-link"
+                  >Elevate Your Everyday</a
+                >
+                .............................
+                <span class="project-bracket">[</span>
+                HTML5, CSS3
+                <span class="project-bracket">]</span>
+              </span>
+            </li>
+            <li class="projects-item">
+              <span class="project">
+                <a
+                  href="https://sergsvet87.github.io/Eats-Restaurant/"
+                  class="project-link"
+                  >Eats Restaurant</a
+                >
+                ...........................................
+                <span class="project-bracket">[</span>
+                HTML5, CSS3
+                <span class="project-bracket">]</span>
+              </span>
+            </li>
+            <li class="projects-item">
+              <span class="project">
+                <a
+                  href="https://sergsvet87.github.io/Insurance_Service/"
+                  class="project-link"
+                  >Insurance Service</a
+                >
+                .......................................
+                <span class="project-bracket">[</span>
+                HTML5, CSS3
+                <span class="project-bracket">]</span>
+              </span>
+            </li>
+            <li class="projects-item">
+              <span class="project">
+                <a
+                  href="https://sergsvet87.github.io/My_computer/"
+                  class="project-link"
+                  >Computer Assembly</a
+                >
+                ................................
+                <span class="project-bracket">[</span>
+                HTML5, CSS3
+                <span class="project-bracket">]</span>
+              </span>
+            </li>
+            <li class="projects-item">
+              <span class="project">
+                <a
+                  href="https://sergsvet87.github.io/Daru_Website/"
+                  class="project-link"
+                  >Daru Website</a
+                >
+                ................................................
+                <span class="project-bracket">[</span>
+                HTML5, CSS3
+                <span class="project-bracket">]</span>
+              </span>
+            </li>
+            <li class="projects-item">
+              <span class="project">
+                <a
+                  href="https://sergsvet87.github.io/Night_Shift/"
+                  class="project-link"
+                  >Night Shift</a
+                >
+                .......................................................
+                <span class="project-bracket">[</span>
+                HTML5, CSS3
+                <span class="project-bracket">]</span>
+              </span>
+            </li>
+            <li class="projects-item">
+              <span class="project">
+                <a
+                  href="https://sergsvet87.github.io/Flower_Plants/"
+                  class="project-link"
+                  >Flower Plants</a
+                >
+                ................................................
+                <span class="project-bracket">[</span>
+                HTML5, CSS3
+                <span class="project-bracket">]</span>
+              </span>
+            </li>
+            <li class="projects-item">
+              <span class="project">
+                <a
+                  href="https://sergsvet87.github.io/Aim_Game/"
+                  class="project-link"
+                  >Aim Game</a
+                >
+                .......................................................
+                <span class="project-bracket">[</span>
+                HTML5, CSS3, JavaScript
+                <span class="project-bracket">]</span>
+              </span>
+            </li>
+          </ol> -->
+
+          <div class="cards">
+            <div class="card">
+              <div class="card__img">
+                <img
+                  src="img/Drive-Moto.jpg"
+                  alt="Moto Drive"
+                  class="card-image"
+                  width="380"
+                  height="250"
+                />
+
+                <div class="img-card__hover">
+                  <p class="img-card__text">
+                    <span>Drive Moto</span>
+                    Extreme Technique
+                  </p>
+                  <a
+                    class="img-card__btn"
+                    href="https://sergsvet87.github.io/A-Tune/"
+                    target="_blank"
+                  >
+                    View Project
+                  </a>
+                </div>
+              </div>
+              <!-- /.card__img -->
+
+              <div class="card-text-wrapper">
+                <h3 class="card-title lang-card-title1">Веб - сайт</h3>
+                <ul class="tags">
+                  <li class="tags-item"><a href="#" class="tag">HTML</a></li>
+                  <li class="tags-item"><a href="#" class="tag">CSS</a></li>
+                  <li class="tags-item">
+                    <a href="#" class="tag">JavaScript</a>
+                  </li>
+                  <li class="tags-item">
+                    <a href="#" class="tag">jQuery</a>
+                  </li>
+                  <li class="tags-item">
+                    <a href="#" class="tag">Figma</a>
+                  </li>
+                  <li class="tags-item">
+                    <a href="#" class="tag">Gulp</a>
+                  </li>
+                  <li class="tags-item">
+                    <a href="#" class="tag">Slick</a>
+                  </li>
+                  <li class="tags-item"><a href="#" class="tag">Git</a></li>
+                </ul>
+                <p class="card-text lang-card-text1">
+                  Інтеренет-магазин з продажу екстремальної техніки та запчастин
+                  до неї по всій Україні. Відчуй спражній захват від
+                  екстримального відпочинку.
+                </p>
+                <div class="card-buttons">
+                  <a
+                    href="https://github.com/SergSvet87/Major_Projects.git"
+                    class="card-button"
+                    target="_blank"
+                  >
+                    <img
+                      src="img/icons/Code.svg"
+                      alt="download icon"
+                      class="card-button-icon"
+                    />
+                    <span class="card-button-text lang-card-button-text1"
+                      >Код
+                    </span>
+                  </a>
+                  <a
+                    href="https://sergsvet87.github.io/Major_Projects/"
+                    class="card-button"
+                    target="_blank"
+                  >
+                    <img
+                      src="img/icons/Check.svg"
+                      alt="chek icon"
+                      class="card-button-icon"
+                    />
+                    <span class="card-button-text lang-card-button-text2"
+                      >Демо
+                    </span>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <!-- ./проєкт1 -->
+
+            <div class="card">
+              <div class="card__img img-card">
+                <img
+                  src="img/A-Tune.png"
+                  alt="A-Tune"
+                  class="card-image"
+                  width="380"
+                  height="250"
+                />
+
+                <div class="img-card__hover">
+                  <p class="img-card__text">
+                    <span>A-Tune</span>
+                    Equipment and accessories
+                  </p>
+                  <a
+                    class="img-card__btn"
+                    href="https://sergsvet87.github.io/A-Tune/"
+                    target="_blank"
+                  >
+                    View Project
+                  </a>
+                </div>
+              </div>
+              <!-- /.card__img -->
+
+              <div class="card-text-wrapper">
+                <h3 class="card-title lang-card-title2">Інтернет-магазин</h3>
+                <ul class="tags">
+                  <li class="tags-item"><a href="#" class="tag">HTML</a></li>
+                  <li class="tags-item"><a href="#" class="tag">CSS</a></li>
+                  <li class="tags-item">
+                    <a href="#" class="tag">JavaScript</a>
+                  </li>
+                  <li class="tags-item">
+                    <a href="#" class="tag">Figma</a>
+                  </li>
+                  <li class="tags-item">
+                    <a href="#" class="tag">Gulp</a>
+                  </li>
+                  <li class="tags-item">
+                    <a href="#" class="tag">Swiper</a>
+                  </li>
+                  <li class="tags-item"><a href="#" class="tag">Git</a></li>
+                </ul>
+                <p class="card-text lang-card-text2">
+                  Інтернет-магазин з продажу запасних частин та товарів для
+                  покращення дизайну і характеристик вашого чотири- або
+                  двоколесного товариша та друга.
+                </p>
+                <div class="card-buttons">
+                  <a
+                    href="https://github.com/SergSvet87/A-Tune.git"
+                    class="card-button"
+                    target="_blank"
+                  >
+                    <img
+                      src="img/icons/Code.svg"
+                      alt="download icon"
+                      class="card-button-icon"
+                    />
+                    <span class="card-button-text lang-card-button-text3"
+                      >Код
+                    </span>
+                  </a>
+                  <a
+                    href="https://sergsvet87.github.io/A-Tune/"
+                    class="card-button"
+                    target="_blank"
+                  >
+                    <img
+                      src="img/icons/Check.svg"
+                      alt="chek icon"
+                      class="card-button-icon"
+                    />
+                    <span class="card-button-text lang-card-button-text4"
+                      >Демо
+                    </span>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <!-- ./проєкт2 -->
+          </div>
+          <!-- ./карточки -->
+          <div class="projects__link">
+            <a
+              href="https://sergsvet87.github.io/My_Portfolio/"
+              target="_blank"
+              class="projects-link title lang-link-projects"
+              >Моє Портфоліо:</a
+            >
+          </div>
+        </section>
+
+        <!--Работа начало -->
+        <section class="work">
+          <h3 class="title lang-title-work">Досвід роботи:</h3>
+          <!--Предприяие 1-->
+          <div>
+            <h4 class="organization lang-organization1">
+              Филиал УкрНИИгаз АО "Укргаздобыча"
+            </h4>
+            <p class="work-position lang-work-position1">Process Engineer</p>
+            <p class="period lang-work-period1">
+              December 2017 - up to now <span class="line">|</span> Kharkiv
+            </p>
+            <p class="work-description lang-work-description1">
+              В секторе разработки норм на механическое бурение и норм времени
+              на технологические работы отдела техники и технологии бурения
+              занимаюсь разработкой норм времени на спуско-подъемные операции
+              установками для капитального ремонта скважин.
+            </p>
+          </div>
+
+          <!--Предприяие 2-->
+          <div>
+            <h4 class="organization lang-organization2">
+              ГП "Харьковское конструкторское бюро по машиностроению им.
+              Морозова"
+            </h4>
+            <p class="work-position lang-work-position2">Engineer-inventor</p>
+            <p class="period lang-work-period2">
+              2016 - 2017 years <span class="line">|</span> Kharkiv
+            </p>
+            <p class="work-description lang-work-description2">
+              Во время работы занимался проведением испытаний комплектующих
+              (тарировка пыли для испытания воздухоочистителей, испытания
+              редукторов привода насосов водометов и лебедки), техническое
+              сопровождение восстановления камеры холода, сопровождение
+              технического описания для испытаний моноблока, разработка и
+              оформление "Программы испытаний водяной помпы".
+            </p>
+          </div>
+
+          <!--Предприяие 3-->
+          <div>
+            <h4 class="organization lang-organization3">ООО "Воля-Кабель"</h4>
+            <p class="work-position lang-work-position3">Technician</p>
+            <p class="period lang-work-period3">
+              2014 - 2016 years <span class="line">|</span> Kharkiv
+            </p>
+            <p class="work-description lang-work-description3">
+              Занимался подключением интернет услуг и телевидения от
+              оборудования компании до потребителей абонентов.
+            </p>
+          </div>
+
+          <!--Предприяие 4-->
+          <div class="lang-work-4">
+            <h4 class="organization lang-organization4">
+              ГП "Завод им. Малышева"
+            </h4>
+            <p class="work-position lang-work-position4">
+              Setup and Testing engineer
+            </p>
+            <p class="period lang-work-period4">
+              2009 - 2013 years <span class="line">|</span> Kharkiv
+            </p>
+            <p class="work-description lang-work-description4">
+              Во время работы занимался настройкой и проведение испытаний
+              дизель-генераторов семейства Д100, а также работал
+              Инженером-конструктором и испытателем двигателей.
+            </p>
+          </div>
+        </section>
+
+        <!--Образование начало-->
+        <section class="educations">
+          <h3 class="title lang-title-education">Education</h3>
+
+          <!--Учереждение 1-->
+          <div class="education">
+            <h4 class="education-title lang-education-title2">
+              Национальный технический университет "Днепровская политехника"
+            </h4>
+            <p class="education-specialization lang-education-specialization2">
+              "Бурение скважин" - Инженер-механик
+            </p>
+            <p class="period lang-education-period2">
+              September 2019 - December 2020 <span class="line">|</span> Dnipro
+            </p>
+          </div>
+
+          <!--Учереждение 2-->
+          <div class="education">
+            <h4 class="education-title lang-education-title3">
+              Харьковский государственный автомобильно-дорожный технический
+              университет
+            </h4>
+            <p class="education-specialization lang-education-specialization3">
+              "Двигатели внутреннего сгорания" - Инженер-механик
+            </p>
+            <p class="period lang-education-period3">
+              September 2004 - June 2009 <span class="line">|</span> Kharkiv
+            </p>
+          </div>
+        </section>
+
+        <section class="alert">
+          <h4 class="alert__title">
+            Будь ласка, оберіть іншу мову, я проти мови нічого поганого не маю,
+            але на даний час країна-агресор є її носієм!!! <br /><br />
+            Вибачте за незручності! <br /><br />
+            Чекаю на ваші повідомлення або дзвінки! <br />
+            Всім гарного настрою та приємних справ!
+          </h4>
+          <!-- /.alert__title -->
+
+          <img
+            src="img/i.webp"
+            width="500"
+            height="250"
+            alt="peace"
+            class="alert__img"
+          />
+
+          <button class="alert__close-btn" type="button">
+            <svg
+              width="28"
+              height="28"
+              viewBox="0 0 28 28"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path d="M2 2L26 26" stroke="#fff" stroke-width="3" />
+              <path d="M26 2L2 26" stroke="#fff" stroke-width="3" />
+            </svg>
+          </button>
+          <!-- /.modal__close-btn -->
+        </section>
+        <!-- /.alert -->
+      </main>
+
+      <!--Боковая панель начало-->
+      <aside class="sidebar">
+        <div class="sidebar__img">
+          <img src="img/Serhii_Svit.png" alt="Аватар Моє Фото" class="photo" />
+
+          <div class="photo__circle"></div>
+          <!-- /.photo__circle -->
+
+          <div class="photo__items">
+            <div class="photo__item item-html">
+              <img src="img/icons/html5.svg" alt="html5" />
+            </div>
+            <!-- /.photo__item -->
+            <div class="photo__item item-css">
+              <img src="img/icons/css3.svg" alt="css3" />
+            </div>
+            <!-- /.photo__item -->
+            <div class="photo__item item-figma">
+              <img src="img/icons/figma_logo.svg" alt="figma_logo" />
+            </div>
+            <!-- /.photo__item -->
+            <div class="photo__item item-js">
+              <img src="img/icons/js.svg" alt="js" />
+            </div>
+            <!-- /.photo__item -->
+            <div class="photo__item item-vue">
+              <img src="img/icons/vue-js.svg" alt="vue-js" />
+            </div>
+            <!-- /.photo__item -->
+          </div>
+          <!-- /.photo__items -->
+        </div>
+        <!-- /.sidebar__img -->
+
+        <!--Контакты-->
+        <section class="contacts">
+          <address>
+            <h3 class="sidebar-title lang-sidebar-title">Contacts:</h3>
+            <div>
+              <p class="contact__item">
+                <span class="contact-type lang-contact-adress">A:</span>
+                <a
+                  class="contact-link lang-contact-link"
+                  target="_blank"
+                  href="https://www.google.com/maps/place/%D1%83%D0%BB.+%D0%9A%D0%B8%D1%80%D0%B3%D0%B8%D0%B7%D1%81%D0%BA%D0%B0%D1%8F,+2,+%D0%A5%D0%B0%D1%80%D1%8C%D0%BA%D0%BE%D0%B2,+%D0%A5%D0%B0%D1%80%D1%8C%D0%BA%D0%BE%D0%B2%D1%81%D0%BA%D0%B0%D1%8F+%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D1%8C,+61000/@49.9462615,36.2690515,17.75z/data=!4m8!1m2!2m1!1z0LrQsNGA0YLRiyDQs9GD0LPQuw!3m4!1s0x41270a954648c861:0xd4c36c0962ac1fd4!8m2!3d49.9467104!4d36.268237"
+                  >Kharkiv, Kirgizska str.,2</a
+                >
+              </p>
+              <p class="contact__item">
+                <span class="contact-type lang-contact-telephone">C:</span>
+                <a class="contact-link" target="_blank" href="tel:+380976157541"
+                  >+38 097 61 57 541</a
+                >
+              </p>
+              <p class="contact__item">
+                <span class="contact-type lang-contact-email">E:</span>
+                <a
+                  class="contact-link email"
+                  target="_blank"
+                  href="mailto:svetlichniy1905@gmail.com"
+                  >svetlichniy1905@gmail.com</a
+                >
+              </p>
+
+              <p class="contact__item">
+                <a
+                  class="contact-link"
+                  target="_blank"
+                  href="https://github.com/SergSvet87?tab=repositories"
+                  ><img src="img/icons/github.svg" alt="github" /> github</a
+                >
+              </p>
+
+              <p class="contact__item">
+                <a
+                  class="contact-link"
+                  target="_blank"
+                  href="https://www.linkedin.com/public-profile/settings?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_self_edit_contact-info%3BhcBiHBFlT5yVayJn2EHCdQ%3D%3D"
+                  ><img src="img/icons/linkedin.svg" alt="linkedin" />
+                  linkedin</a
+                >
+              </p>
+
+              <p class="contact__item">
+                <a
+                  class="contact-link"
+                  target="_blank"
+                  href="https://t.me/Serg_svet"
+                  ><img src="img/icons/telegram.svg" alt="telegram" />
+                  telegram</a
+                >
+              </p>
+
+              <p class="contact__item">
+                <a
+                  class="contact-link"
+                  target="_blank"
+                  href="Skype:https://join.skype.com/invite/CBnR8fF6vKfj"
+                  ><img src="img/icons/Skype.svg" alt="Skype" /> skype</a
+                >
+              </p>
+            </div>
+          </address>
+        </section>
+
+        <!--Технические навыки-->
+        <section class="tech-skills">
+          <h3 class="sidebar-title lang-tech-skills-title">Tech skills</h3>
+          <ul class="tech-skills-list">
+            <li class="tech-skills-item">
+              <span class="tech-skills-text">HTML5</span>
+            </li>
+            <li class="tech-skills-item">
+              <span class="tech-skills-text">CSS3</span>
+            </li>
+            <li class="tech-skills-item">
+              <span class="tech-skills-text">SASS / SCSS</span>
+            </li>
+            <li class="tech-skills-item">
+              <span class="tech-skills-text">Figma</span>
+            </li>
+            <li class="tech-skills-item">
+              <span class="tech-skills-text">Adobe XD</span>
+            </li>
+            <li class="tech-skills-item">
+              <span class="tech-skills-text">JavaScript</span>
+            </li>
+            <li class="tech-skills-item">
+              <span class="tech-skills-text">jQuery</span>
+            </li>
+            <li class="tech-skills-item">
+              <span class="tech-skills-text">Swiper</span>
+            </li>
+            <li class="tech-skills-item">
+              <span class="tech-skills-text">Bootstrap</span>
+            </li>
+            <li class="tech-skills-item">
+              <span class="tech-skills-text">GIT</span>
+            </li>
+            <li class="tech-skills-item">
+              <span class="tech-skills-text">Gulp</span>
+            </li>
+            <li class="tech-skills-item">
+              <span class="tech-skills-text">WordPress</span>
+            </li>
+            <li class="tech-skills-item">
+              <span class="tech-skills-text">SQL</span>
+            </li>
+          </ul>
+        </section>
+
+        <!--Профессиональные навыки-->
+        <section class="soft-skills">
+          <h3 class="sidebar-title lang-soft-skills-title">Soft skills</h3>
+          <!-- <ol class="soft-skills-ol-list">
+            <li class="soft-skills-ol-item">
+              <span class="soft-skills-ol-text">Scrum</span>
+            </li>
+            <li class="soft-skills-ol-item">
+              <span class="soft-skills-ol-text">Agile</span>
+            </li>
+          </ol> -->
+
+          <ul class="soft-skills-ul-list">
+            <li class="soft-skills-ul-item">
+              <span class="soft-skills-ul-text lang-soft-skills-li1"
+                >Знання HTML, CSS, SQL, JavaScript на рівні, достатньому для
+                створення та підтримки сайту;</span
+              >
+            </li>
+
+            <li class="soft-skills-ul-item">
+              <span class="soft-skills-ul-text lang-soft-skills-li8"
+                >Працюю з редактором коду для кросплатформної розробки веб- та
+                хмарних додатків Visual Studio Code. Є навички працювання з
+                мовою програмування C# та її інтегрованим середовищем розробки
+                Microsoft Visual Studio;</span
+              >
+            </li>
+
+            <li class="soft-skills-ul-item">
+              <span class="soft-skills-ul-text lang-soft-skills-li9"
+                >Знайомий з баг-трекінговою системою (Jira);</span
+              >
+            </li>
+            <li class="soft-skills-ul-item">
+              <span class="soft-skills-ul-text lang-soft-skills-li7"
+                >Знайомий з баг-трекінговою системою (Jira);</span
+              >
+            </li>
+
+            <li class="soft-skills-ul-item">
+              <span class="soft-skills-ul-text lang-soft-skills-li4"
+                >Розуміння принципів роботи браузерів (Chrome, Firefox, ME,
+                Yandex);</span
+              >
+            </li>
+
+            <li class="soft-skills-ul-item">
+              <span class="soft-skills-ul-text lang-soft-skills-li10"
+                >Розумію, що таке Командна робота, Адаптивність до різних
+                ситуацій, пошук неохідних Інформаційних матеріалів, Вирішення
+                потупаючих проблем, підхід до роботи з Креативністю, постійне
+                Спілкування з колективом, Трудова етика та Увага до
+                деталей.</span
+              >
+            </li>
+          </ul>
+        </section>
+      </aside>
+      <!--Боковая панель конец-->
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container footer__container">
+        <!-- Social -->
+        <div class="footer__social">
+          <ul class="social-list">
+            <li class="social-item">
+              <a
+                target="_blank"
+                href="https://www.linkedin.com/public-profile/settings?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_self_edit_contact-info%3BhcBiHBFlT5yVayJn2EHCdQ%3D%3D"
+                class="social-link"
+              >
+                <img
+                  src="img/icons/socials/linkedin.svg"
+                  alt="linkedin"
+                  class="social-logo"
+                  width="30"
+                  height="30"
+                />
+              </a>
+            </li>
+            <!-- ./linkedin -->
+
+            <li class="social-item">
+              <a
+                href="mailto:svitlychnyi1905@gmail.com"
+                target="_blank"
+                class="social-link"
+              >
+                <img
+                  src="img/icons/socials/gmail.svg"
+                  alt="gmail"
+                  class="social-logo"
+                  width="30"
+                  height="30"
+                />
+              </a>
+            </li>
+            <!-- ./gmail -->
+
+            <li class="social-item">
+              <a
+                href="viber://chat?number=+380976157541"
+                target="_blank"
+                class="social-link"
+              >
+                <img
+                  src="img/icons/socials/viber.svg"
+                  alt="viber"
+                  class="social-logo"
+                  width="30"
+                  height="30"
+                />
+              </a>
+            </li>
+            <!-- ./viber -->
+
+            <li class="social-item">
+              <a
+                href="https://api.whatsapp.com/send?phone=+380976157541"
+                target="_blank"
+                class="social-link"
+              >
+                <img
+                  src="img/icons/socials/whatsapp.svg"
+                  alt="whatsapp"
+                  class="social-logo"
+                  width="30"
+                  height="30"
+                />
+              </a>
+            </li>
+            <!-- ./whatsapp -->
+
+            <li class="social-item">
+              <a
+                href="https://github.com/SergSvet87"
+                target="_blank"
+                class="social-link"
+                ><img
+                  src="img/icons/socials/github.svg"
+                  alt="github"
+                  class="social-logo"
+                  width="30"
+                  height="30"
+              /></a>
+            </li>
+            <!-- ./github -->
+
+            <li class="social-item">
+              <a
+                href="https://stackoverflow.com/users/20042762/serhii-svitlychnyi"
+                target="_blank"
+                class="social-link"
+                ><img
+                  src="img/icons/socials/stackoverflow.svg"
+                  alt="stackoverflow"
+                  class="social-logo"
+                  width="30"
+                  height="30"
+              /></a>
+            </li>
+            <!-- ./stackoverflow -->
+
+            <li class="social-item">
+              <a
+                href="https://t.me/Serg_svet"
+                target="_blank"
+                class="social-link"
+                ><img
+                  src="img/icons/socials/telegram.svg"
+                  alt="telegram"
+                  class="social-logo"
+                  width="30"
+                  height="30"
+              /></a>
+            </li>
+            <!-- ./telegram -->
+
+            <li class="social-item">
+              <a
+                href="https://www.facebook.com/s.svetlichnyy/"
+                target="_blank"
+                class="social-link"
+                ><img
+                  src="img/icons/socials/facebook.svg"
+                  alt="facebook"
+                  class="social-logo"
+                  width="30"
+                  height="30"
+              /></a>
+            </li>
+            <!-- ./facebook -->
+
+            <li class="social-item">
+              <a
+                href="Skype:https://join.skype.com/invite/CBnR8fF6vKfj"
+                target="_blank"
+                class="social-link"
+                ><img
+                  src="img/icons/socials/Skype.svg"
+                  alt="Skype"
+                  class="social-logo"
+                  width="30"
+                  height="30"
+              /></a>
+            </li>
+            <!-- ./skype -->
+          </ul>
+        </div>
+        <!-- ./social -->
+
+        <!-- Animation -->
+        <div class="footer__animation animation">
+          <a
+            href="https://sergsvet87.github.io/My_Portfolio/"
+            class="animation__link"
+            target="_blank"
+          >
+            <svg
+              class="animation__circle"
+              width="100"
+              height="100"
+              version="1.1"
+              id="Capa_1"
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+              x="0px"
+              y="0px"
+              viewBox="0 0 54 54"
+              style="enable-background: new 0 0 54 54"
+              xml:space="preserve"
+              fill="#606060"
+            >
+              <g>
+                <path
+                  id="circleShape"
+                  class="circle__shape"
+                  d="M27,0C12.112,0,0,12.112,0,27s12.112,27,27,27s27-12.112,27-27S41.888,0,27,0z M27,52C13.215,52,2,40.785,2,27
+                S13.215,2,27,2s25,11.215,25,25S40.785,52,27,52z"
+                  fill="none"
+                />
+                <!---->
+                <path
+                  class="animation__arrow"
+                  transform="scale(0.6)"
+                  d="M32.413,14.293c-0.391-0.391-1.023-0.391-1.414,0L19.501,25.791c-0.667,0.667-0.667,1.751,0,2.418l11.498,11.498
+                C31.194,39.902,31.45,40,31.706,40s0.512-0.098,0.707-0.293c0.391-0.391,0.391-1.023,0-1.414L21.12,27l11.293-11.293
+                C32.804,15.316,32.804,14.684,32.413,14.293z"
+                  fill="#606060"
+                />
+              </g>
+              <text class="animation__text">
+                <textPath href="#circleShape">Сергій Світличний</textPath>
+              </text>
+            </svg>
+          </a>
+        </div>
+        <!-- /.footer__animation -->
+
+        <div class="footer__copyright">
+          &copy; Copyright
+          <script>
+            document.write(new Date().getFullYear());
+          </script>
+          All rights reserved | This template is made with
+          <i class="material-icons">favorite</i> in
+          <address class="footer__address">
+            <a href="https://goo.gl/maps/UxcYic13qqGbfErw5" target="_blank">
+              Ukraine, Kharkiv</a
+            >
+          </address>
+        </div>
+        <!-- ./footer-text -->
+      </div>
+      <!-- /.container -->
+    </footer>
+    <!-- ./footer -->
+  </body>
+</html>
